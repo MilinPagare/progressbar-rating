@@ -1,11 +1,13 @@
-import './App.css';
-import Home from './components/Home';
+import "./App.css";
+import UsingMultipleDiv from "./components/UsingMultipleDiv";
+import UsingSingleDiv from "./components/UsingSingleDiv";
 
 function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-      <Home/>
+      <UsingMultipleDiv />
+      <UsingSingleDiv />
     </div>
   );
 }

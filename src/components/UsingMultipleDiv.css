@@ -1,0 +1,16 @@
+.bar{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.incomplete{
+    height:3rem;
+    width:4rem;
+    background-color: gray;
+}
+.complete{
+    height:3rem;
+    width:4rem;
+    background-color: green;
+}
